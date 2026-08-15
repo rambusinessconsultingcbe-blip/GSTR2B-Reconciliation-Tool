@@ -1,0 +1,14 @@
+sales:
+  required_columns: [invoice_date, invoice_number, customer_name, item_name, quantity, taxable_value]
+production:
+  required_columns: [production_date, customer_name, product_name, batch_number, quantity]
+trial_balance:
+  required_columns: [period, ledger_name, debit, credit]
+debtors:
+  required_columns: [as_of_date, customer_name, invoice_number, outstanding_amount]
+creditors:
+  required_columns: [as_of_date, supplier_name, invoice_number, outstanding_amount]
+coal_consumption:
+  required_columns: [consumption_date, product_name, batch_number, quantity, amount]
+chemical_consumption:
+  required_columns: [consumption_date, product_name, batch_number, chemical_name, quantity, amount]
